@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50ECC0C8-3657-47C1-8437-71B6221B1E13}|DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON.csproj|c:\\proyecto_c#_crud_jeffersoncuro\\dsw1_web_ef_curotaquila_jefferson\\dsw1_web_ef_curotaquila_jefferson\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50ECC0C8-3657-47C1-8437-71B6221B1E13}|DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON.csproj|solutionrelative:dsw1_web_ef_curotaquila_jefferson\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50ECC0C8-3657-47C1-8437-71B6221B1E13}|DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON.csproj|c:\\proyecto_c#_crud_jeffersoncuro\\dsw1_web_ef_curotaquila_jefferson\\dsw1_web_ef_curotaquila_jefferson\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50ECC0C8-3657-47C1-8437-71B6221B1E13}|DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON.csproj|solutionrelative:dsw1_web_ef_curotaquila_jefferson\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50ECC0C8-3657-47C1-8437-71B6221B1E13}|DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON.csproj|c:\\proyecto_c#_crud_jeffersoncuro\\dsw1_web_ef_curotaquila_jefferson\\dsw1_web_ef_curotaquila_jefferson\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50ECC0C8-3657-47C1-8437-71B6221B1E13}|DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON.csproj|solutionrelative:dsw1_web_ef_curotaquila_jefferson\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50ECC0C8-3657-47C1-8437-71B6221B1E13}|DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON.csproj|c:\\proyecto_c#_crud_jeffersoncuro\\dsw1_web_ef_curotaquila_jefferson\\dsw1_web_ef_curotaquila_jefferson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50ECC0C8-3657-47C1-8437-71B6221B1E13}|DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON.csproj|solutionrelative:dsw1_web_ef_curotaquila_jefferson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50ECC0C8-3657-47C1-8437-71B6221B1E13}|DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON.csproj|c:\\proyecto_c#_crud_jeffersoncuro\\dsw1_web_ef_curotaquila_jefferson\\dsw1_web_ef_curotaquila_jefferson\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50ECC0C8-3657-47C1-8437-71B6221B1E13}|DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON.csproj|solutionrelative:dsw1_web_ef_curotaquila_jefferson\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T23:37:47.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T16:02:19.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Program.cs",
+              "RelativeDocumentMoniker": "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Program.cs",
+              "ToolTip": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Program.cs",
+              "RelativeToolTip": "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:02:09.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T14:49:35.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T14:49:28.768Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

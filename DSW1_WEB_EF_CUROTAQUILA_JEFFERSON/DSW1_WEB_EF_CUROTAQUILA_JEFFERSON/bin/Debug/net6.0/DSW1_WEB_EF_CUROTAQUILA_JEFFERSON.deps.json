@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON/1.0.0": {
+        "runtime": {
+          "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DSW1_WEB_EF_CUROTAQUILA_JEFFERSON/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

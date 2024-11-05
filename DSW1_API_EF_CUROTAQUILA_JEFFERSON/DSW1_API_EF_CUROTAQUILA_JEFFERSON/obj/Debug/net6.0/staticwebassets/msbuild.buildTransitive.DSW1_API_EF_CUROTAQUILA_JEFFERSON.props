@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DSW1_API_EF_CUROTAQUILA_JEFFERSON.props" />
+</Project>

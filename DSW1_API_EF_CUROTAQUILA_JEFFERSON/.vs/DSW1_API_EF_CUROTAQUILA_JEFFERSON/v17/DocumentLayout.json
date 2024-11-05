@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1350696F-AD56-4A9D-AD63-0BF622E35928}|DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON.csproj|c:\\proyecto_c#_crud_jeffersoncuro\\dsw1_api_ef_curotaquila_jefferson\\dsw1_api_ef_curotaquila_jefferson\\controllers\\docentescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1350696F-AD56-4A9D-AD63-0BF622E35928}|DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON.csproj|solutionrelative:dsw1_api_ef_curotaquila_jefferson\\controllers\\docentescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1350696F-AD56-4A9D-AD63-0BF622E35928}|DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON.csproj|c:\\proyecto_c#_crud_jeffersoncuro\\dsw1_api_ef_curotaquila_jefferson\\dsw1_api_ef_curotaquila_jefferson\\dao\\daoimplements\\daoimplements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1350696F-AD56-4A9D-AD63-0BF622E35928}|DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON.csproj|solutionrelative:dsw1_api_ef_curotaquila_jefferson\\dao\\daoimplements\\daoimplements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1350696F-AD56-4A9D-AD63-0BF622E35928}|DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON.csproj|c:\\proyecto_c#_crud_jeffersoncuro\\dsw1_api_ef_curotaquila_jefferson\\dsw1_api_ef_curotaquila_jefferson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1350696F-AD56-4A9D-AD63-0BF622E35928}|DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON.csproj|solutionrelative:dsw1_api_ef_curotaquila_jefferson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1350696F-AD56-4A9D-AD63-0BF622E35928}|DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON.csproj|c:\\proyecto_c#_crud_jeffersoncuro\\dsw1_api_ef_curotaquila_jefferson\\dsw1_api_ef_curotaquila_jefferson\\service\\docenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1350696F-AD56-4A9D-AD63-0BF622E35928}|DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON.csproj|solutionrelative:dsw1_api_ef_curotaquila_jefferson\\service\\docenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1350696F-AD56-4A9D-AD63-0BF622E35928}|DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON.csproj|c:\\proyecto_c#_crud_jeffersoncuro\\dsw1_api_ef_curotaquila_jefferson\\dsw1_api_ef_curotaquila_jefferson\\dao\\idocentesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1350696F-AD56-4A9D-AD63-0BF622E35928}|DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON.csproj|solutionrelative:dsw1_api_ef_curotaquila_jefferson\\dao\\idocentesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1350696F-AD56-4A9D-AD63-0BF622E35928}|DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON.csproj|c:\\proyecto_c#_crud_jeffersoncuro\\dsw1_api_ef_curotaquila_jefferson\\dsw1_api_ef_curotaquila_jefferson\\model\\docentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1350696F-AD56-4A9D-AD63-0BF622E35928}|DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON.csproj|solutionrelative:dsw1_api_ef_curotaquila_jefferson\\model\\docentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocentesController.cs",
+              "DocumentMoniker": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Controllers\\DocentesController.cs",
+              "RelativeDocumentMoniker": "DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Controllers\\DocentesController.cs",
+              "ToolTip": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Controllers\\DocentesController.cs",
+              "RelativeToolTip": "DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Controllers\\DocentesController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T14:39:45.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Program.cs",
+              "RelativeDocumentMoniker": "DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Program.cs",
+              "ToolTip": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Program.cs",
+              "RelativeToolTip": "DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T14:36:21.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocenteService.cs",
+              "DocumentMoniker": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Service\\DocenteService.cs",
+              "RelativeDocumentMoniker": "DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Service\\DocenteService.cs",
+              "ToolTip": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Service\\DocenteService.cs",
+              "RelativeToolTip": "DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Service\\DocenteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T14:32:13.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DaoImplements.cs",
+              "DocumentMoniker": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\dao\\daoImplements\\DaoImplements.cs",
+              "RelativeDocumentMoniker": "DSW1_API_EF_CUROTAQUILA_JEFFERSON\\dao\\daoImplements\\DaoImplements.cs",
+              "ToolTip": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\dao\\daoImplements\\DaoImplements.cs",
+              "RelativeToolTip": "DSW1_API_EF_CUROTAQUILA_JEFFERSON\\dao\\daoImplements\\DaoImplements.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T14:31:20.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "iDocentesDAO.cs",
+              "DocumentMoniker": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\dao\\iDocentesDAO.cs",
+              "RelativeDocumentMoniker": "DSW1_API_EF_CUROTAQUILA_JEFFERSON\\dao\\iDocentesDAO.cs",
+              "ToolTip": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\dao\\iDocentesDAO.cs",
+              "RelativeToolTip": "DSW1_API_EF_CUROTAQUILA_JEFFERSON\\dao\\iDocentesDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T14:30:02.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Docentes.cs",
+              "DocumentMoniker": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Model\\Docentes.cs",
+              "RelativeDocumentMoniker": "DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Model\\Docentes.cs",
+              "ToolTip": "C:\\PROYECTO_C#_CRUD_JEFFERSONCURO\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Model\\Docentes.cs",
+              "RelativeToolTip": "DSW1_API_EF_CUROTAQUILA_JEFFERSON\\Model\\Docentes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T14:28:58.131Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

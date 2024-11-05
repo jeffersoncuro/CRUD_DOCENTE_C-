@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Docentes</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">CRUD de Docentes</h1>
+
+        <form id="docenteForm">
+            <input type="hidden" id="codigo" name="codigo" />
+            <div class="form-group">
+                <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre" required />
+            </div>
+            <div class="form-group">
+                <input type="text" id="apellido" name="apellido" class="form-control" placeholder="Apellido" required />
+            </div>
+            <div class="form-group">
+                <input type="text" id="profesion" name="profesion" class="form-control" placeholder="Profesión" required />
+            </div>
+            <div class="form-group">
+                <input type="text" id="tipoDocumento" name="tipoDocumento" class="form-control" placeholder="Tipo de Documento" required />
+            </div>
+            <div class="form-group">
+                <input type="text" id="documento" name="documento" class="form-control" placeholder="Documento" required />
+            </div>
+            <button id="registrarBtn" type="button" class="btn btn-primary">Guardar</button>
+            <button id="clearBtn" type="button" class="btn btn-secondary">Limpiar</button>
+        </form>
+
+        <table id="docentesTable" class="table mt-4">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Código</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Profesión</th>
+                    <th>Tipo de Documento</th>
+                    <th>Documento</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script>
+        // Función para cargar los docentes
+        function listarDocentes() {
+            $.get("https://localhost:7108/api/Docentes", function (data) {
+                var rows = "";
+                $.each(data, function (index, docente) {
+                    rows += `<tr>
+                                <td>${docente.codigo}</td>
+                                <td>${docente.nombre}</td>
+                                <td>${docente.apellido}</td>
+                                <td>${docente.profesion}</td>
+                                <td>${docente.tipoDocumento}</td>
+                                <td>${docente.documento}</td>
+                                <td>
+                                    <button class="editBtn btn btn-primary" data-id="${docente.codigo}">Editar</button>
+                                    <button class="deleteBtn btn btn-danger" data-id="${docente.codigo}">Eliminar</button>
+                                </td>
+                            </tr>`;
+                });
+                $("#docentesTable tbody").html(rows);
+            });
+        }
+
+        // Función para limpiar el formulario
+        function limpiarFormulario() {
+            $("#codigo").val("");
+            $("#nombre").val("");
+            $("#apellido").val("");
+            $("#profesion").val("");
+            $("#tipoDocumento").val("");
+            $("#documento").val("");
+            $("#registrarBtn").show();
+            $("#editarBtn").hide();
+        }
+
+        // Función para mostrar una notificación con SweetAlert
+        function mostrarNotificacion(mensaje, tipo) {
+            swal({
+                title: mensaje,
+                icon: tipo,
+                button: "Aceptar",
+            });
+        }
+
+        // Función para guardar un docente (agregar o editar)
+        function guardarDocente() {
+            var docente = {
+                codigo: $("#codigo").val(),
+                nombre: $("#nombre").val(),
+                apellido: $("#apellido").val(),
+                profesion: $("#profesion").val(),
+                tipoDocumento: $("#tipoDocumento").val(),
+                documento: $("#documento").val()
+            };
+
+            var docenteGuardar = {
+                nombre: $("#nombre").val(),
+                apellido: $("#apellido").val(),
+                profesion: $("#profesion").val(),
+                tipoDocumento: $("#tipoDocumento").val(),
+                documento: $("#documento").val()
+            };
+
+            var url = docente.codigo ? `https://localhost:7108/api/Docentes/${docente.codigo}` : 'https://localhost:7108/api/Docentes';
+            var method = docente.codigo ? 'PUT' : 'POST';
+
+            $.ajax({
+                url: url,
+                type: method,
+                contentType: 'application/json',
+                data: JSON.stringify(docente.codigo ? docente : docenteGuardar),
+                success: function () {
+                    listarDocentes();
+                    limpiarFormulario();
+                    var mensaje = docente.codigo ? "Docente actualizado correctamente" : "Docente guardado correctamente";
+                    mostrarNotificacion(mensaje, "success");
+                },
+                error: function () {
+                    var mensaje = docente.codigo ? "Error al actualizar el docente" : "Error al guardar el docente";
+                    mostrarNotificacion(mensaje, "error");
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            listarDocentes();
+
+            $("#clearBtn").click(limpiarFormulario);
+
+            $("#registrarBtn").click(guardarDocente);
+
+            $(document).on("click", ".editBtn", function () {
+                var docenteId = $(this).data("id");
+                $.get("https://localhost:7108/api/Docentes/" + docenteId, function (docente) {
+                    $("#codigo").val(docente.codigo);
+                    $("#nombre").val(docente.nombre);
+                    $("#apellido").val(docente.apellido);
+                    $("#profesion").val(docente.profesion);
+                    $("#tipoDocumento").val(docente.tipoDocumento);
+                    $("#documento").val(docente.documento);
+                    $("#registrarBtn").show();
+                    $("#editarBtn").hide();
+                });
+            });
+
+            $(document).on("click", ".deleteBtn", function () {
+                var docenteId = $(this).data("id");
+                swal({
+                    title: "¿Estás seguro?",
+                    text: "Una vez eliminado, no podrás recuperar este docente",
+                    icon: "warning",
+                    buttons: ["Cancelar", "Eliminar"],
+                    dangerMode: true,
+                })
+                    .then((willDelete) => {
+                        if (willDelete) {
+                            $.ajax({
+                                url: "https://localhost:7108/api/Docentes/" + docenteId,
+                                type: "DELETE",
+                                success: function () {
+                                    listarDocentes();
+                                    mostrarNotificacion("Docente eliminado correctamente", "success");
+                                },
+                                error: function () {
+                                    mostrarNotificacion("Error al eliminar el docente", "error");
+                                }
+                            });
+                        }
+                    });
+            });
+        });
+    </script>
+</body>
+</html>
